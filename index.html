@@ -4,94 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Book Store</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<style>
-    .header{
-        background: rgb(251, 173, 3);
-        height:80px;
-        font-size:30px;
-        font-weight:bold;
-        text-align:center;
-        display:flex;
-        justify-content:space-around;
-        align-items: center;
-    }
-    .logo{
-        color:black;
-        height: 90px;
-        display:flex;
-        justify-content:space-around;
-    }
-    .title{ 
-        flex:1;
-        text-align: center;
-    }
-    .menu {
-        background:rgb(239, 216, 125);
-        height: 50px;
-        display:flex;
-        justify-content: space-around;
-        align-items: center;
-    
-    } 
-    .main{
-        display: flex;
-        height: 500px;
-    }
-   
-    .left{ 
-        background:rgba(190, 199, 137, 0.916);
-        width: 200px;
-        border: 2px solid black;
-        display:flex;
-        flex-direction: column;
-    }
-    .right{
-        background:rgba(231, 231, 228, 0.916);
-        flex: 1;
-        padding: 20px; 
-        
-    }
-    
-   .menu a{
-    text-decoration: none;
-    color:red;
-    font-weight:bold;}
-    .right iframe{
-        width:100%;
-        height: 100%;
-        border: none;
-
-
-    }
-    
-</style>
 <body>
     <div class="header">
-        <div class="logo"><img src="glbitm logo.jpg" alt="GLBITM"></div>
+        <div class="logo">
+            <img src="Glbitm logo.jpg" alt="GLBITM">
+        </div>
         <div class="title">Online Book Store</div>
+    </div>
 
+    <div class="menu">
+        <a href="home.html" target="content">Home</a>
+        <a href="Login.html" target="content">Login</a>
+        <a href="registration.html" target="content">Registration</a>
+        <a href="catalogue.html" target="content">Catalogue</a>
+        <a href="cart.html" target="content">Cart</a>
     </div>
-   <div class="menu">
-    <a href="home.html"  target="content">Home</a>
-    <a href="Login.html" target="content">Login</a>
-    <a href="registration.html" target="content">Registration</a>
-    <a href="catalogue.html" target="content">Catalogue</a>
-    <a href="cart.html" target="content">Cart</a>
-</div>
-   
-   <div class="main">
-       <div class="left">
-         <a href="cse.html" target="content">CSE</a>
-         <a href="ece.html" target="content">ECE</a>
-         <a href="civil.html" target="content">CIVIL</a>
-         <a href="eee.html" target="content">EEE</a>
+
+    <div class="main">
+        <div class="left">
+            <a href="CSE.html" target="content">CSE</a>
+
+
+            <a href="ECE.html" target="content">ECE</a>
+
+
+            <a href="CIVIL.html" target="content">CIVIL</a>
+
+            
+            <a href="EEE.html" target="content">EEE</a>
+        </div>
+
+        <div class="right">
+            <iframe src="home.html" name="content" title="Book store content"></iframe>
+        </div>
     </div>
-         <div class="right">
-        <iframe src="home.html" name="content"></iframe>
-    </div>
-    </div>
-   
-   
 </body>
 </html>
