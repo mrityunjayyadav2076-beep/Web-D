@@ -1,38 +1,53 @@
+```html
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <title>Login</title>
-    <style>
-        .wrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: sans-serif;
-    line-height: 1.5;
-    min-height: 100vh;
-    background: #f3f3f3;
-    flex-direction: column;
-    margin: 0;
-    background-color: #c24848;
-}
-    </style>
+    <title>Login - Online Book Store</title>
 </head>
-
 <body>
-    <form action="#" method="post">
-        <div class="wrap">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username" required>
-        </div>
-        <div class="wrap">
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" placeholder="Enter your password" required>
-        </div>
-        <div class="wrap">
-            <button type="submit" class="submit">Login</button>
-        </div>
-    </form>
-</body>
 
+
+    <h2 align="center">Login to Your Account</h2>
+
+    <form action="catalogue.html" method="get">
+        <table align="center" cellpadding="10">
+
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td>
+                    <input type="email" id="email" name="email"
+                           placeholder="Enter your email" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td>
+                    <input type="password" id="password" name="password"
+                           placeholder="Enter your password" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Login</button>
+                    <button type="reset">Clear</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+    <p align="center">
+        Don't have an account?
+        <a href="register.html">Register Here</a>
+    </p>
+
+    <p align="center">
+        <a href="home.html">Continue to Catalogue</a>
+    </p>
+
+    <hr>
+</body>
 </html>
+```
