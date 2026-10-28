@@ -4,13 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-     <h2>Welcome to Online book Store</h2>
-        <p> An online bookstore is a web-based platform
-             where customers can browse, select, and purchase books 
-             from the comfort of their homes, with digital management 
-             of inventory and transactions.</p>
-        
+    <div class="page-shell">
+        <section class="hero">
+            <div class="hero-card">
+                <span class="feature-tag">New arrivals</span>
+                <h1>Welcome to the Online Book Store</h1>
+                <p>
+                    Discover semester-ready books, engineering essentials, and must-have reads
+                    curated for students and learners. Browse by department, add titles to your cart,
+                    and enjoy a simple, modern shopping experience from your device.
+                </p>
+                <div class="form-actions">
+                    <a href="catalogue.html" class="primary-btn">Explore Catalogue</a>
+                    <a href="registration.html" class="secondary-btn">Create Account</a>
+                </div>
+            </div>
+
+            <div class="hero-visual hero-card">
+                <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80" alt="Bookshelf">
+            </div>
+        </section>
+
+        <section class="grid">
+            <article class="product-card">
+                <img src="https://m.media-amazon.com/images/I/91RD+ZSBvhL._SL1500_.jpg" alt="Python book">
+                <h3>Python Programming</h3>
+                <p>Perfect for beginners and coding practice.</p>
+                <div class="price-row">
+                    <strong>₹299</strong>
+                    <button class="action-btn">Add to Cart</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="https://m.media-amazon.com/images/I/511OqY2Wt2L.jpg" alt="Digital Logic book">
+                <h3>Digital Logic</h3>
+                <p>Core concepts for electronics and systems.</p>
+                <div class="price-row">
+                    <strong>₹299</strong>
+                    <button class="action-btn">Add to Cart</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="https://m.media-amazon.com/images/I/91VXcW8kLRL._SL1500_.jpg" alt="Concrete Technology book">
+                <h3>Concrete Technology</h3>
+                <p>Essential reading for civil engineering students.</p>
+                <div class="price-row">
+                    <strong>₹299</strong>
+                    <button class="action-btn">Add to Cart</button>
+                </div>
+            </article>
+        </section>
+    </div>
 </body>
 </html>
